@@ -1,0 +1,62 @@
+Cadastro de Usuários - Fullstack App
+Aplicação completa frontend + backend(REPO) para cadastro, listagem e exclusão de usuários.
+Feita com React no front e Node.js + Express + PostgreSQL no back.
+
+Frontend
+- React
+- Axios
+- CSS Flexbox
+
+Funcionalidades
+✅ Cadastro de novos usuários
+✅ Listagem automática de usuários cadastrados
+✅ Exclusão de usuários via ícone de lixeira
+✅ Design responsivo e moderno
+
+
+🔙 Backend
+
+# 1. Clonar o projeto
+git clone https://github.com/seu-usuario/seu-repo-backend
+
+# 2. Instalar as dependências
+cd backend
+npm install
+
+# 3. Criar o banco de dados (PostgreSQL) e configurar o .env
+DATABASE_URL="postgresql://usuario:senha@localhost:5432/nome-do-banco"
+
+# 4. Rodar as migrations
+npx prisma migrate dev --name init
+
+# 5. Iniciar o servidor
+npm run dev
+A API estará disponível em: http://localhost:3000
+
+🔜 Frontend
+
+# 1. Clonar o projeto
+git clone https://github.com/seu-usuario/seu-repo-frontend
+
+# 2. Instalar as dependências
+cd frontend
+npm install
+
+# 3. Configurar o endpoint da API
+# Em src/services/api.js:
+# axios.create({ baseURL: 'http://localhost:3000' })
+
+# 4. Iniciar o projeto
+npm start
+A aplicação estará disponível em: http://localhost:5173 (ou porta padrão do Vite)
+
+📁 src
+├── 📁 assets
+│   └── Lixeira.png
+├── 📁 pages
+│   └── Home.jsx
+├── 📁 services
+│   └── api.js
+├── 📁 styles
+│   └── style.css
+
