@@ -53,14 +53,3 @@ axios.create({ baseURL: 'http://localhost:3000' })
 npm start
 A aplicação estará disponível em: http://localhost:5173 (ou porta padrão do Vite)
 
-# Estrutura de Diretórios (Frontend)
-📁 src
-├── 📁 assets
-│   └── Lixeira.png
-├── 📁 pages
-│   └── Home.jsx
-├── 📁 services
-│   └── api.js
-├── 📁 styles
-│   └── style.css
-
